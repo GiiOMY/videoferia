@@ -1,0 +1,152 @@
+/* .text-platzi{
+    color:#97c93e !important;
+    
+} */
+
+.btn-platzi {
+    background-color: #97c93e;
+    color:white;
+}
+
+.btn-platzi:hover{
+    background-color:#82ad36;
+}
+
+#top{
+    height: 100px;
+    background-image: url('tools/FONDO-MADERA.png');
+}
+
+/* fondo header */
+#header{
+    background-image: url('tools/fondo-madera_OK.png');  
+    font-family: 'Montserrat', sans-serif;
+    color:whitesmoke
+}
+
+/* logo feria nav bar */
+#header img{
+    width: 150px;    
+}
+  
+/* carousel encabezado */
+#main {
+    background-image: url('tools/FONDO-MADERA.png');
+}
+
+/* estilo a la imagen ppal // img dentro de carousel */
+#main .carousel-inner img {  
+    max-height: 70vh; /* 70% del alto de la pantalla */
+    object-fit: contain;
+    /* filter: grayscale(70%); *//* aplica a las imagenes ??? */
+}
+
+
+
+
+/* lugar y fecha */
+#lugar {
+    background-image: url('tools/FONDO-MADERA.png');
+}
+
+/* estilo a la imagen ppal // img dentro de carousel */
+#lugar .carousel-inner img {  
+    max-height: 70vh; /* 70% del alto de la pantalla */
+    object-fit: contain;
+    /* filter: grayscale(70%); *//* aplica a las imagenes ??? */
+}
+
+
+
+    
+
+/* carousel */
+#carousel {
+    position: relative; 
+}
+ 
+#carousel .overlay {
+    position: absolute;/* para que el oberlay se expanda de todo el alto y ancho del carousel */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    /* Soluciona el problema del texto , para que se vea delante de los demas div */
+    z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+
+}
+
+/* SECCION DE SPEAKERS   cards              */
+#speakers{
+    background-image: url('tools/FONDO-MADERA.png');
+}
+
+/* ENCABEZADO MARCAS */
+#speakers #regalos{
+    max-height: 100px;
+}
+
+#speakers #regalos img{
+    max-height: 100px;
+}
+
+
+
+/* ENCABEZADO */
+#speakers #marcas {
+    background-image: url('tools/fondo-madera_OK.png');   
+    max-height: 300px;
+   
+}
+
+/* fondo marcas */
+.card-brand{
+background: rgba(51,204,204,0);
+color:white;
+border: 0px;
+}
+
+
+
+#speakers img{
+    height:320px;
+    object-fit: contain;
+}
+
+/* PASTILLAS */
+#marca{
+    background:#745F43;
+    border-radius: 10px;
+}
+
+/* LUGAR Y FECHA */
+#place-time img { 
+    max-width: 100%;
+}
+
+#place-time{
+    background-color:#343a40;
+    color:white;
+}
+
+
+
+
+/* color de fondo */
+#footer{
+    /* background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372); */
+    background-image: url("tools/fondo-beige.png");
+}
+
+/* color enlaces  */
+#footer a{ 
+    color:#745F43;
+}
+
